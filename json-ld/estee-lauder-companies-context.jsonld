@@ -1,0 +1,168 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "elc": "https://www.elcompanies.com/ns#",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "logo": "schema:logo",
+    "foundingDate": "schema:foundingDate",
+    "founder": "schema:founder",
+    "headquartersLocation": "schema:headquarters",
+    "tickerSymbol": "schema:tickerSymbol",
+    "stockExchange": "elc:stockExchange",
+    "numberOfEmployees": "schema:numberOfEmployees",
+    "ceo": "elc:ceo",
+    "chair": "elc:chair",
+    "brand": "schema:brand",
+    "category": "elc:category",
+    "subsidiary": "schema:subOrganization",
+    "partner": "elc:partner",
+    "program": "elc:program",
+    "initiative": "elc:initiative",
+    "announced": "elc:announced",
+    "scope": "elc:scope",
+    "region": "elc:region",
+    "countryOfOrigin": "schema:countryOfOrigin",
+    "areaServed": "schema:areaServed",
+    "revenue": "schema:revenue",
+    "fiscalYear": "elc:fiscalYear",
+    "Organization": "schema:Organization",
+    "Corporation": "schema:Corporation",
+    "Brand": "schema:Brand",
+    "Person": "schema:Person",
+    "Product": "schema:Product",
+    "ConglomerateBrand": "elc:ConglomerateBrand",
+    "PrestigeBeauty": "elc:PrestigeBeauty",
+    "AIInnovationLab": "elc:AIInnovationLab",
+    "StrategicProgram": "elc:StrategicProgram",
+    "TechnologyPartnership": "elc:TechnologyPartnership"
+  },
+  "@type": "Corporation",
+  "@id": "https://www.elcompanies.com/#org",
+  "name": "The Estée Lauder Companies Inc.",
+  "url": "https://www.elcompanies.com",
+  "logo": "https://www.elcompanies.com/etc/designs/elc/img/elcompanies-logo.svg",
+  "foundingDate": "1946",
+  "founder": [
+    {"@type": "Person", "name": "Estée Lauder"},
+    {"@type": "Person", "name": "Joseph Lauder"}
+  ],
+  "headquartersLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "addressCountry": "US"
+    }
+  },
+  "tickerSymbol": "EL",
+  "stockExchange": "NYSE",
+  "numberOfEmployees": 57000,
+  "ceo": {"@type": "Person", "name": "Stéphane de La Faverie"},
+  "chair": {"@type": "Person", "name": "William P. Lauder"},
+  "areaServed": "Approximately 150 countries and territories",
+  "revenue": {
+    "@type": "MonetaryAmount",
+    "value": "14320000000",
+    "currency": "USD",
+    "fiscalYear": "FY2025"
+  },
+  "brand": [
+    {"@type": "Brand", "name": "AERIN Beauty", "category": "Multi-Category"},
+    {"@type": "Brand", "name": "Aramis", "category": "Fragrance"},
+    {"@type": "Brand", "name": "Aveda", "category": "Hair Care"},
+    {"@type": "Brand", "name": "Balmain Beauty", "category": "Multi-Category"},
+    {"@type": "Brand", "name": "Bobbi Brown Cosmetics", "category": "Makeup"},
+    {"@type": "Brand", "name": "Bumble and bumble", "category": "Hair Care"},
+    {"@type": "Brand", "name": "Clinique", "category": "Skin Care"},
+    {"@type": "Brand", "name": "Darphin Paris", "category": "Skin Care"},
+    {"@type": "Brand", "name": "DECIEM", "category": "Skin Care"},
+    {"@type": "Brand", "name": "Dr.Jart+", "category": "Skin Care"},
+    {"@type": "Brand", "name": "Editions de Parfums Frédéric Malle", "category": "Fragrance"},
+    {"@type": "Brand", "name": "Estée Lauder", "category": "Multi-Category"},
+    {"@type": "Brand", "name": "GLAMGLOW", "category": "Skin Care"},
+    {"@type": "Brand", "name": "Jo Malone London", "category": "Fragrance"},
+    {"@type": "Brand", "name": "KILIAN PARIS", "category": "Fragrance"},
+    {"@type": "Brand", "name": "La Mer", "category": "Skin Care"},
+    {"@type": "Brand", "name": "Lab Series", "category": "Skin Care"},
+    {"@type": "Brand", "name": "Le Labo", "category": "Fragrance"},
+    {"@type": "Brand", "name": "M·A·C", "category": "Makeup"},
+    {"@type": "Brand", "name": "NIOD", "category": "Skin Care"},
+    {"@type": "Brand", "name": "Origins", "category": "Skin Care"},
+    {"@type": "Brand", "name": "Smashbox", "category": "Makeup"},
+    {"@type": "Brand", "name": "The Ordinary", "category": "Skin Care"},
+    {"@type": "Brand", "name": "TOM FORD", "category": "Fragrance"},
+    {"@type": "Brand", "name": "Too Faced", "category": "Makeup"}
+  ],
+  "program": [
+    {
+      "@type": "StrategicProgram",
+      "name": "Beauty Reimagined",
+      "announced": "2025-02",
+      "scope": "Strategic vision restoring sustainable sales growth and double-digit adjusted operating margins."
+    },
+    {
+      "@type": "StrategicProgram",
+      "name": "Profit Recovery and Growth Plan",
+      "scope": "Targeting upper range of $0.8–$1.0B gross benefits; $1.2–$1.6B restructuring charges; majority of run-rate by FY2027."
+    },
+    {
+      "@type": "StrategicProgram",
+      "name": "One ELC Operating Model",
+      "scope": "One Team (July 2025), One Culture (February 2026), One Operating Ecosystem (2026)."
+    }
+  ],
+  "initiative": [
+    {
+      "@type": "AIInnovationLab",
+      "name": "AI Innovation Lab",
+      "partner": "Microsoft",
+      "announced": "2024-04-26",
+      "scope": "Microsoft Azure OpenAI Service powering global marketing chatbot, R&D acceleration, and the Voice-Enabled Makeup Assistant (VMA) accessibility app."
+    },
+    {
+      "@type": "TechnologyPartnership",
+      "name": "ConsumerIQ",
+      "partner": "Microsoft",
+      "announced": "2025-04-29",
+      "scope": "Microsoft Copilot Studio + Azure OpenAI Service unifying ELC's consumer data across 25 brands and 150 countries."
+    },
+    {
+      "@type": "TechnologyPartnership",
+      "name": "Adobe Firefly Services",
+      "partner": "Adobe",
+      "announced": "2025-03-12",
+      "scope": "Generative AI APIs and Adobe Experience Manager Assets as Cloud Service for digital marketing content; M·A·C is the pilot brand."
+    },
+    {
+      "@type": "TechnologyPartnership",
+      "name": "Jo Malone London Scent Advisor",
+      "partner": "Google Cloud",
+      "announced": "2025-12-02",
+      "scope": "Conversational fragrance discovery on Google Gemini and Vertex AI, available on JoMalone.com (US/UK)."
+    },
+    {
+      "@type": "TechnologyPartnership",
+      "name": "Shopify Global Commerce Platform",
+      "partner": "Shopify",
+      "announced": "2025-10-28",
+      "scope": "Unified omnichannel direct-to-consumer commerce stack; ~50% rollout by calendar year-end 2026."
+    },
+    {
+      "@type": "TechnologyPartnership",
+      "name": "Enterprise Business Services",
+      "partner": "Accenture",
+      "announced": "2026-04-01",
+      "scope": "Standardized shared services within the One ELC operating ecosystem."
+    },
+    {
+      "@type": "TechnologyPartnership",
+      "name": "Global Media Partnership",
+      "partner": "WPP",
+      "announced": "2026-04-01",
+      "scope": "First-ever unified global media partner."
+    }
+  ]
+}

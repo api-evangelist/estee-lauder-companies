@@ -1,0 +1,320 @@
+aid: estee-lauder-companies
+name: The Estée Lauder Companies
+description: >-
+  The Estée Lauder Companies Inc. (NYSE: EL) is one of the world's leading
+  manufacturers, marketers and sellers of quality prestige skin care, makeup,
+  fragrance and hair care products. Founded in 1946 by Estée and Joseph Lauder,
+  the family-controlled, New York-headquartered conglomerate operates a
+  portfolio of more than 20 prestige brands sold in approximately 150
+  countries and territories, employs roughly 57,000 people worldwide, and
+  reported fiscal 2025 net sales of approximately $14.32 billion.
+  ELC's corporate website (elcompanies.com) does not expose any public
+  developer APIs, OpenAPI specs, SDKs, sandboxes, or a developer portal — the
+  EsteeLauder GitHub organization is empty of public repositories. The
+  technology surface is instead expressed through enterprise partnerships:
+  the AI Innovation Lab (announced 2023, expanded April 2024) jointly run
+  with Microsoft on Azure OpenAI Service; the ConsumerIQ tool built on
+  Microsoft Copilot Studio (2025); an Adobe Firefly Services generative AI
+  collaboration for digital marketing assets (March 2025); a Google
+  Gemini / Vertex AI–powered Jo Malone London Scent Advisor (December
+  2025); and a Shopify-based unified global direct-to-consumer commerce
+  platform (announced October 2025, ~50% rolled out by calendar year-end
+  2026). ELC's strategic vision, "Beauty Reimagined" (announced February
+  2025), and the Profit Recovery and Growth Plan ($0.8–1.0B gross benefits;
+  $1.2–1.6B restructuring charges) anchor the One ELC operating model now
+  led by CEO Stéphane de La Faverie and Board Chair William P. Lauder.
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Beauty
+  - Consumer Products
+  - Cosmetics
+  - Fragrance
+  - Hair Care
+  - Luxury Goods
+  - Makeup
+  - Personal Care
+  - Prestige Beauty
+  - Skin Care
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/estee-lauder-companies/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.elcompanies.com
+  - type: AboutUs
+    url: https://www.elcompanies.com/en/who-we-are
+  - type: Brands
+    url: https://www.elcompanies.com/en/our-brands
+  - type: Leadership
+    url: https://www.elcompanies.com/en/who-we-are
+  - type: Heritage
+    url: https://www.elcompanies.com/en/who-we-are/the-lauder-family
+  - type: InvestorRelations
+    url: https://www.elcompanies.com/en/investors
+  - type: Newsroom
+    url: https://www.elcompanies.com/en/news-and-media/newsroom
+  - type: PressReleases
+    url: https://www.elcompanies.com/en/news-and-media/newsroom/press-releases
+  - type: Careers
+    url: https://www.elcompanies.com/en/careers
+  - type: Sustainability
+    url: https://www.elcompanies.com/en/our-impact
+  - type: Compliance
+    url: https://www.elcompanies.com/en/our-impact/responsible-sourcing
+  - type: GitHubOrganization
+    url: https://github.com/EsteeLauder
+    description: >-
+      Organization exists but is empty — page states "This organization has
+      no public repositories."
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/the-estee-lauder-companies-inc
+  - type: StrategicVision
+    url: https://www.elcompanies.com/en/our-company/beauty-reimagined
+    title: Beauty Reimagined Strategic Vision (announced February 2025)
+  - type: Partners
+    url: https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2024/04-26-2024
+    title: AI Innovation Lab with Microsoft Azure OpenAI (April 26, 2024)
+  - type: Partners
+    url: https://www.elcompanies.com/en/news-and-media/newsroom/company-features/2025/elc-microsoft-consumer-iq
+    title: ConsumerIQ on Microsoft Copilot Studio (April 29, 2025)
+  - type: Partners
+    url: https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2025/03-12-2025-02
+    title: Adobe Firefly Services for digital marketing asset production (March 12, 2025)
+  - type: Partners
+    url: https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2025/10-28-2025-212608571
+    title: Shopify global direct-to-consumer commerce platform (October 28, 2025)
+  - type: Partners
+    url: https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2025/12-02-2025-121509645
+    title: Jo Malone London AI Scent Advisor on Google Gemini / Vertex AI (December 2, 2025)
+  - type: Partners
+    url: https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/04-01-2026-220015297
+    title: One ELC operating model and Profit Recovery and Growth Plan milestone (April 1, 2026)
+  - name: BrandPortfolio
+    type: Features
+    description: >-
+      The Estée Lauder Companies prestige brand portfolio (~25 brands across
+      skin care, makeup, fragrance, hair care). Source — elcompanies.com/en/our-brands.
+    data:
+      - brand: AERIN Beauty
+        category: Multi-Category
+        url: https://www.aerin.com
+      - brand: Aramis
+        category: Fragrance
+        url: https://www.aramis-cologne.com
+      - brand: Aveda
+        category: Hair Care
+        url: https://www.aveda.com
+      - brand: Balmain Beauty
+        category: Multi-Category
+        url: https://www.balmainbeauty.com
+      - brand: Bobbi Brown Cosmetics
+        category: Makeup
+        url: https://www.bobbibrowncosmetics.com
+      - brand: Bumble and bumble
+        category: Hair Care
+        url: https://www.bumbleandbumble.com
+      - brand: Clinique
+        category: Skin Care
+        url: https://www.clinique.com
+      - brand: Darphin Paris
+        category: Skin Care
+        url: https://www.darphin.com
+      - brand: DECIEM
+        category: Skin Care / House of Brands
+        url: https://deciem.com
+      - brand: Dr.Jart+
+        category: Skin Care
+        url: https://www.drjart.com
+      - brand: Editions de Parfums Frédéric Malle
+        category: Fragrance
+        url: https://www.fredericmalle.com
+      - brand: Estée Lauder
+        category: Multi-Category (Flagship)
+        url: https://www.esteelauder.com
+      - brand: GLAMGLOW
+        category: Skin Care / Treatment
+        url: https://www.glamglow.com
+      - brand: Jo Malone London
+        category: Fragrance
+        url: https://www.jomalone.com
+      - brand: KILIAN PARIS
+        category: Fragrance
+        url: https://www.bykilian.com
+      - brand: La Mer
+        category: Skin Care (Luxury)
+        url: https://www.cremedelamer.com
+      - brand: Lab Series
+        category: Skin Care (Men)
+        url: https://www.labseries.com
+      - brand: Le Labo
+        category: Fragrance
+        url: https://www.lelabofragrances.com
+      - brand: M·A·C
+        category: Makeup
+        url: https://www.maccosmetics.com
+      - brand: NIOD
+        category: Skin Care
+        url: https://www.niod.com
+      - brand: Origins
+        category: Skin Care
+        url: https://www.origins.com
+      - brand: Smashbox
+        category: Makeup
+        url: https://www.smashbox.com
+      - brand: The Ordinary
+        category: Skin Care
+        url: https://theordinary.com
+      - brand: TOM FORD
+        category: Fragrance / Beauty
+        url: https://www.tomfordbeauty.com
+      - brand: Too Faced
+        category: Makeup
+        url: https://www.toofaced.com
+  - name: AIInnovationLab
+    type: Features
+    description: >-
+      ELC AI Innovation Lab and adjacent generative AI partnerships. ELC has
+      no public AI/ML API surface; these are enterprise initiatives.
+    data:
+      - initiative: AI Innovation Lab (Microsoft Azure OpenAI)
+        partner: Microsoft
+        announced: '2024-04-26'
+        scope: >-
+          Expands an ELC + Microsoft relationship in place since 2017.
+          Leverages "cutting-edge generative AI capabilities in Microsoft
+          Azure OpenAI Service" to build a global marketing chatbot tied to
+          ELC's proprietary product and claim database, plus generative AI
+          tools accelerating R&D ingredient and trend response, and the
+          previously launched Voice-Enabled Makeup Assistant (VMA) mobile
+          app (iOS/Android — US/UK/Ireland) for visually impaired users.
+        executive: Jane Lauder (then EVP Enterprise Marketing and Chief Data Officer)
+      - initiative: ConsumerIQ
+        partner: Microsoft
+        announced: '2025-04-29'
+        scope: >-
+          Chat-based natural-language tool built on Microsoft Copilot Studio
+          and Azure OpenAI Service that unifies ELC's consumer, market and
+          industry data (PDFs, decks, spreadsheets) across 25 brands and
+          150 countries, reducing data-gathering time from weeks to minutes.
+          ELC named to Microsoft's inaugural "Agents of Change" list, March
+          2025.
+      - initiative: Adobe Firefly Services
+        partner: Adobe
+        announced: '2025-03-12'
+        scope: >-
+          Adobe Firefly Services APIs, Generative Expand, and Adobe
+          Experience Manager Assets as Cloud Service to scale production of
+          hundreds of thousands of digital marketing assets per year across
+          ~25 brands in ~150 countries. M·A·C Cosmetics is the pilot brand.
+      - initiative: Jo Malone London AI Scent Advisor
+        partner: Google Cloud
+        announced: '2025-12-02'
+        scope: >-
+          Conversational fragrance discovery experience on JoMalone.com
+          (US/UK) powered by Google Gemini and Google Cloud Vertex AI,
+          mapping natural-language preferences to Jo Malone's olfactory
+          data attributes.
+      - initiative: Shopify global DTC commerce platform
+        partner: Shopify
+        announced: '2025-10-28'
+        scope: >-
+          Strategic platform shift to a unified omnichannel commerce stack
+          on Shopify with real-time data and AI-driven capabilities. First
+          phase launched Q1 2026 (calendar year); ~50% of the rollout
+          expected by calendar year-end 2026 per the April 2026 PRGP update.
+      - initiative: Accenture Enterprise Business Services
+        partner: Accenture
+        announced: '2026-04-01'
+        scope: >-
+          Standardization of shared services within the One ELC operating
+          model.
+      - initiative: WPP global media partnership
+        partner: WPP
+        announced: '2026-04-01'
+        scope: >-
+          First-ever unified global media partner, consolidating
+          historically decentralized regional media operations.
+  - name: StrategicTransformation
+    type: Features
+    description: >-
+      Beauty Reimagined strategic vision and Profit Recovery and Growth
+      Plan (PRGP) anchoring ELC's 2024–2027 transformation under CEO
+      Stéphane de La Faverie.
+    data:
+      - program: Beauty Reimagined
+        announced: '2025-02'
+        description: >-
+          Strategic vision for restoring sustainable sales growth and
+          double-digit adjusted operating margins via a leaner, faster,
+          more agile operating model with expanded consumer coverage.
+      - program: Profit Recovery and Growth Plan (PRGP)
+        scope: >-
+          Restructuring program targeting the upper range of $0.8–$1.0
+          billion gross benefits, with estimated restructuring charges of
+          $1.2–$1.6 billion; majority of full run-rate benefits expected in
+          fiscal 2027.
+      - program: One ELC Operating Model
+        components: One Team (July 2025), One Culture (February 2026), One Operating Ecosystem (2026)
+        ceoQuote: >-
+          "One ELC operating model is now fully established. This unified
+          system will enable faster, more agile and efficient operations
+          supporting growth." — Stéphane de La Faverie, April 2026
+  - name: CompanyFacts
+    type: Features
+    description: ELC corporate fact sheet drawn from elcompanies.com (verified May 2026).
+    data:
+      - fact: Founded
+        value: '1946'
+      - fact: Founders
+        value: Estée Lauder and Joseph Lauder
+      - fact: Headquarters
+        value: New York, NY, USA
+      - fact: Stock Exchange
+        value: NYSE
+      - fact: Ticker
+        value: EL
+      - fact: CEO
+        value: Stéphane de La Faverie
+      - fact: Board Chair
+        value: William P. Lauder
+      - fact: Brand Count
+        value: 24+ prestige brands
+      - fact: Countries and Territories
+        value: ~150
+      - fact: Employees
+        value: ~57,000
+      - fact: Women Employees Worldwide
+        value: 80%
+      - fact: Women VP and Above
+        value: 61%
+      - fact: Fiscal 2025 Net Sales
+        value: ~$14.32 billion
+  - name: APISurfaceAssessment
+    type: Features
+    description: >-
+      API Evangelist assessment of ELC's public API and developer surface
+      as of May 23, 2026.
+    data:
+      - finding: Public developer portal
+        status: None — no developer.elcompanies.com or equivalent
+      - finding: Public OpenAPI / AsyncAPI specs
+        status: None published
+      - finding: Public REST or GraphQL APIs
+        status: None — direct-to-consumer brand sites are not API-fronted publicly
+      - finding: SDKs / CLI
+        status: None published
+      - finding: GitHub organization
+        status: github.com/EsteeLauder exists but has zero public repositories
+      - finding: Status page / changelog
+        status: None public
+      - finding: Sandbox / Console
+        status: None
+      - finding: Tier rationale
+        status: Tier 3 — no-apis. Technology surface is entirely vendor-mediated (Microsoft Azure OpenAI, Adobe Firefly, Google Gemini/Vertex AI, Shopify, Accenture, WPP).
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

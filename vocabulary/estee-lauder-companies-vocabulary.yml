@@ -1,0 +1,175 @@
+name: The Estée Lauder Companies Vocabulary
+description: >-
+  Domain vocabulary covering The Estée Lauder Companies (ELC) — a global
+  prestige beauty conglomerate (NYSE: EL) — its brand portfolio, product
+  categories, transformation programs, and AI / technology partnerships.
+  ELC publishes no public APIs, so this vocabulary frames the corporate
+  and program surface rather than a developer surface.
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/estee-lauder-companies/refs/heads/main/vocabulary/estee-lauder-companies-vocabulary.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+
+corporate:
+  - term: The Estée Lauder Companies Inc.
+    abbreviation: ELC
+    definition: >-
+      Family-controlled, publicly traded (NYSE: EL) prestige beauty
+      conglomerate headquartered in New York City, founded in 1946 by Estée
+      and Joseph Lauder.
+  - term: Lauder family
+    definition: >-
+      Founding family retaining ownership and governance influence across
+      three generations; represented today by Board Chair William P. Lauder,
+      Aerin Lauder (AERIN Beauty founder/creative director), Jane Lauder,
+      and Gary M. Lauder.
+  - term: NYSE EL
+    definition: New York Stock Exchange ticker for The Estée Lauder Companies Inc.
+
+leadership:
+  - role: Chief Executive Officer
+    name: Stéphane de La Faverie
+  - role: Chair of the Board
+    name: William P. Lauder
+  - role: Chief Technology Officer
+    name: Brian Franz
+  - role: Founder, Creative Director — AERIN Beauty
+    name: Aerin Lauder
+
+categories:
+  - term: Skin Care
+    definition: Cleansers, serums, moisturizers, treatments; ELC's largest segment.
+  - term: Makeup
+    definition: Color cosmetics for face, eyes, lips.
+  - term: Fragrance
+    definition: Prestige and luxury fragrances; designated a key growth driver.
+  - term: Hair Care
+    definition: Cleansing, conditioning, styling, and treatment hair products.
+  - term: Prestige Beauty
+    definition: >-
+      Premium-tier beauty positioning emphasizing efficacy, brand heritage,
+      retail experience, and price point above mass channels.
+
+brands:
+  - name: AERIN Beauty
+  - name: Aramis
+  - name: Aveda
+  - name: Balmain Beauty
+  - name: Bobbi Brown Cosmetics
+  - name: Bumble and bumble
+  - name: Clinique
+  - name: Darphin Paris
+  - name: DECIEM
+  - name: Dr.Jart+
+  - name: Editions de Parfums Frédéric Malle
+  - name: Estée Lauder
+  - name: GLAMGLOW
+  - name: Jo Malone London
+  - name: KILIAN PARIS
+  - name: La Mer
+  - name: Lab Series
+  - name: Le Labo
+  - name: M·A·C
+  - name: NIOD
+  - name: Origins
+  - name: Smashbox
+  - name: The Ordinary
+  - name: TOM FORD
+  - name: Too Faced
+
+programs:
+  - term: Beauty Reimagined
+    type: Strategic Vision
+    announced: '2025-02'
+    definition: >-
+      Multi-year strategic vision aimed at restoring sustainable sales
+      growth and double-digit adjusted operating margins through a leaner,
+      faster, more agile operating model and expanded consumer coverage.
+  - term: Profit Recovery and Growth Plan
+    abbreviation: PRGP
+    definition: >-
+      Restructuring program targeting the upper range of $0.8–$1.0 billion
+      in gross benefits; estimated restructuring charges of $1.2–$1.6
+      billion. Majority of full run-rate benefits expected in fiscal 2027.
+  - term: One ELC
+    definition: >-
+      Operating model with three pillars — One Team (July 2025), One Culture
+      (February 2026), and One Operating Ecosystem (2026) — reducing
+      hierarchical layers and unifying platforms and partnerships.
+  - term: Enterprise Business Services
+    partner: Accenture
+    definition: Standardized shared services within the One ELC operating ecosystem.
+
+ai_technology:
+  - term: AI Innovation Lab
+    partner: Microsoft
+    definition: >-
+      Joint generative AI capability announced April 26, 2024 expanding an
+      ELC + Microsoft relationship in place since 2017, built on Microsoft
+      Azure OpenAI Service to power marketing chatbots and R&D acceleration.
+  - term: ConsumerIQ
+    partner: Microsoft
+    definition: >-
+      Chat-based natural-language insight tool launched April 29, 2025 on
+      Microsoft Copilot Studio + Azure OpenAI Service, unifying ELC's
+      consumer/market/industry data across 25 brands and 150 countries.
+  - term: Voice-Enabled Makeup Assistant
+    abbreviation: VMA
+    definition: >-
+      ELC accessibility app (iOS/Android — US/UK/Ireland) launched early
+      2023 for visually impaired makeup users, later integrated into the
+      Microsoft generative AI work.
+  - term: Adobe Firefly Services
+    partner: Adobe
+    definition: >-
+      Generative AI APIs + Adobe Experience Manager Assets as Cloud Service
+      adopted March 12, 2025 to scale digital marketing content production;
+      M·A·C is the pilot brand.
+  - term: Jo Malone London Scent Advisor
+    partner: Google Cloud
+    definition: >-
+      Conversational fragrance discovery tool on JoMalone.com (US/UK)
+      launched December 2, 2025, powered by Google Gemini and Vertex AI.
+  - term: Shopify global commerce platform
+    partner: Shopify
+    definition: >-
+      Strategic platform shift announced October 28, 2025 to a unified
+      omnichannel commerce stack on Shopify; ~50% of the global rollout
+      expected by calendar year-end 2026.
+  - term: WPP global media partnership
+    partner: WPP
+    definition: First-ever unified global media partner, announced April 2026.
+
+regions:
+  - name: Americas
+  - name: EMEA
+  - name: Asia/Pacific
+  - countries: ~150 countries and territories
+
+scale:
+  - metric: Net Sales (FY2025)
+    value: ~$14.32 billion
+  - metric: Employees
+    value: ~57,000
+  - metric: Women Employees Worldwide
+    value: 80%
+  - metric: Women VP and Above
+    value: 61%
+  - metric: Brand Count
+    value: 24+ prestige brands
+
+api_surface:
+  - finding: Developer portal
+    status: None
+  - finding: Public OpenAPI / AsyncAPI
+    status: None
+  - finding: Public REST / GraphQL APIs
+    status: None
+  - finding: SDKs / CLIs
+    status: None
+  - finding: GitHub public repositories
+    status: Zero (github.com/EsteeLauder is empty)
+  - finding: Status page / changelog
+    status: None public
+  - finding: API Evangelist tier
+    status: Tier 3 — no-apis (vendor-mediated tech surface)
