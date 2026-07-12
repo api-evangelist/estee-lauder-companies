@@ -44,6 +44,8 @@ modified: '2026-05-23'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/estee-lauder-companies-domain-security.yml
   - type: Website
     url: https://www.elcompanies.com
   - type: AboutUs
