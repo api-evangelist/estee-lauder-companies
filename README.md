@@ -64,134 +64,99 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The Estée Lauder Companies Inc. (NYSE: **EL**) is one of the world's leading
-manufacturers, marketers and sellers of quality prestige skin care, makeup,
-fragrance and hair care products. Founded in 1946 by Estée and Joseph Lauder
-and headquartered in New York City, ELC operates a portfolio of more than
-20 prestige brands sold in approximately **150 countries and territories**,
-employs roughly **57,000 people worldwide**, and reported **~$14.32 billion
-in fiscal 2025 net sales**.
+The Estée Lauder Companies Inc. (NYSE: EL) is one of the world's leading manufacturers, marketers and sellers of quality prestige skin care, makeup, fragrance and hair care products. Founded in 1946 by Estée and Joseph Lauder, the family-controlled, New York-headquartered conglomerate operates a portfolio of more than 20 prestige brands sold in approximately 150 countries and territories, employs roughly 57,000 people worldwide, and reported fiscal 2025 net sales of approximately $14.32 billion. ELC's corporate website (elcompanies.com) does not expose any public developer APIs, OpenAPI specs, SDKs, sandboxes, or a developer portal — the EsteeLauder GitHub organization is empty of public repositories. The technology surface is instead expressed through enterprise partnerships: the AI Innovation Lab (announced 2023, expanded April 2024) jointly run with Microsoft on Azure OpenAI Service; the ConsumerIQ tool built on Microsoft Copilot Studio (2025); an Adobe Firefly Services generative AI collaboration for digital marketing assets (March 2025); a Google Gemini / Vertex AI–powered Jo Malone London Scent Advisor (December 2025); and a Shopify-based unified global direct-to-consumer commerce platform (announced October 2025, ~50% rolled out by calendar year-end 2026). ELC's strategic vision, "Beauty Reimagined" (announced February 2025), and the Profit Recovery and Growth Plan ($0.8–1.0B gross benefits; $1.2–1.6B restructuring charges) anchor the One ELC operating model now led by CEO Stéphane de La Faverie and Board Chair William P. Lauder.
 
-ELC is family-controlled by the Lauder family. Current leadership includes
-CEO **Stéphane de La Faverie**, Board Chair **William P. Lauder**, and CTO
-**Brian Franz**.
+**Areas:** Beauty · Consumer Products · Cosmetics · Fragrance · Hair Care · Luxury Goods · Makeup · Personal Care · Prestige Beauty · Skincare · Fortune 500
 
-This repository is an API Evangelist profile of the company. It documents
-ELC's brand portfolio, strategic transformation programs, and AI / cloud
-technology partnerships. **ELC does not publish any public developer APIs,
-SDKs, OpenAPI specs, or a developer portal.** Its [GitHub organization
-`EsteeLauder`](https://github.com/EsteeLauder) exists but contains zero
-public repositories. The company's technology surface is expressed entirely
-through enterprise partnerships with Microsoft, Adobe, Google Cloud, Shopify,
-Accenture, and WPP.
+## The Estée Lauder Companies on APIs.io
 
-## Brand Portfolio (25)
+Everything profiled for The Estée Lauder Companies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/estee-lauder-companies/](https://apis.io/providers/estee-lauder-companies/)** — or go straight to one of the APIs or properties below.
 
-| Brand | Category |
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### GraphQL (1)
+
+GraphQL schemas.
+
+- [Moved to /providers/estee-lauder-companies/](https://apis.io/graphqls/estee-lauder-companies/estee-lauder-companies-graphql/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Estee Lauder Companies Context](https://apis.io/jsonld/estee-lauder-companies/estee-lauder-companies-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [The Estée Lauder Companies Vocabulary](https://apis.io/vocabularies/estee-lauder-companies/estee-lauder-companies-vocabulary/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Estee Lauder Companies Domain Security](https://apis.io/security/estee-lauder-companies/estee-lauder-companies-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.elcompanies.com)
+- [Compliance](https://www.elcompanies.com/en/our-impact/responsible-sourcing)
+- [GitHub](https://github.com/EsteeLauder)
+
+## API Evangelist rating
+
+**Kin Score 7.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| AERIN Beauty | Multi-Category |
-| Aramis | Fragrance |
-| Aveda | Hair Care |
-| Balmain Beauty | Multi-Category |
-| Bobbi Brown Cosmetics | Makeup |
-| Bumble and bumble | Hair Care |
-| Clinique | Skin Care |
-| Darphin Paris | Skin Care |
-| DECIEM | Skin Care / House of Brands |
-| Dr.Jart+ | Skin Care |
-| Editions de Parfums Frédéric Malle | Fragrance |
-| Estée Lauder (flagship) | Multi-Category |
-| GLAMGLOW | Skin Care / Treatment |
-| Jo Malone London | Fragrance |
-| KILIAN PARIS | Fragrance |
-| La Mer | Skin Care (Luxury) |
-| Lab Series | Skin Care (Men) |
-| Le Labo | Fragrance |
-| M·A·C | Makeup |
-| NIOD | Skin Care |
-| Origins | Skin Care |
-| Smashbox | Makeup |
-| The Ordinary | Skin Care |
-| TOM FORD | Fragrance / Beauty |
-| Too Faced | Makeup |
+| Discoverability | 50.0 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-Source: [elcompanies.com/en/our-brands](https://www.elcompanies.com/en/our-brands).
+**Agent readiness 0.0** — human-only
 
-## Strategic Transformation
-
-- **Beauty Reimagined** — Strategic vision announced February 2025 to
-  restore sustainable sales growth and double-digit adjusted operating
-  margins via a leaner, faster, more agile operating model and expanded
-  consumer coverage.
-- **Profit Recovery and Growth Plan (PRGP)** — Restructuring program
-  targeting the upper range of **$0.8–$1.0 billion gross benefits**, with
-  estimated restructuring charges of **$1.2–$1.6 billion**. Majority of
-  full run-rate benefits expected in fiscal 2027; execution substantially
-  complete by year-end.
-- **One ELC Operating Model** — Three pillars: One Team (July 2025), One
-  Culture (February 2026), One Operating Ecosystem (2026). CEO Stéphane de
-  La Faverie, April 2026: *"One ELC operating model is now fully
-  established. This unified system will enable faster, more agile and
-  efficient operations supporting growth."*
-
-## AI and Technology Partnerships
-
-ELC has no in-house AI/ML API surface. Its generative AI footprint is
-delivered through these enterprise partnerships:
-
-| Initiative | Partner | Announced | Stack |
-|---|---|---|---|
-| AI Innovation Lab | Microsoft | 2024-04-26 | Azure OpenAI Service — marketing chatbot, R&D acceleration, Voice-Enabled Makeup Assistant (VMA) accessibility app |
-| ConsumerIQ | Microsoft | 2025-04-29 | Copilot Studio + Azure OpenAI — unified consumer/market/industry insight across 25 brands and 150 countries |
-| Generative marketing assets | Adobe | 2025-03-12 | Adobe Firefly Services APIs, Generative Expand, Adobe Experience Manager Assets as Cloud Service. M·A·C is the pilot brand |
-| Jo Malone London Scent Advisor | Google Cloud | 2025-12-02 | Google Gemini + Vertex AI — conversational fragrance discovery on JoMalone.com (US/UK) |
-| Global commerce platform | Shopify | 2025-10-28 | Unified omnichannel direct-to-consumer stack; first phase Q1 2026; ~50% rollout by calendar year-end 2026 |
-| Enterprise Business Services | Accenture | 2026-04-01 | Standardized shared services within the One ELC operating ecosystem |
-| Global media partnership | WPP | 2026-04-01 | First-ever unified global media partner replacing decentralized regional structure |
-
-ELC was named to Microsoft's inaugural **"Agents of Change"** list in March
-2025 for its work on ConsumerIQ.
-
-## API Surface Assessment
-
-| Surface | Status |
+| Agent-readiness dimension | Result |
 |---|---|
-| Public developer portal | None |
-| Public OpenAPI / AsyncAPI specs | None |
-| Public REST / GraphQL APIs | None |
-| SDKs / CLIs | None |
-| GitHub public repositories | Zero (`github.com/EsteeLauder` is empty) |
-| Status page / changelog / release notes | None public |
-| Sandbox / Console | None |
-| API Evangelist tier | **Tier 3 — no-apis**; technology surface is vendor-mediated |
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Artifacts in this Repository
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
-| Path | Description |
-|---|---|
-| [`apis.yml`](./apis.yml) | apis.yml 0.19 index — brand portfolio, AI/tech partnerships, strategic programs, common properties |
-| [`vocabulary/estee-lauder-companies-vocabulary.yml`](./vocabulary/estee-lauder-companies-vocabulary.yml) | Domain vocabulary covering corporate facts, brands, programs, AI partnerships, scale metrics |
-| [`json-ld/estee-lauder-companies-context.jsonld`](./json-ld/estee-lauder-companies-context.jsonld) | JSON-LD context modelling ELC as `schema:Corporation` with brands, programs, and technology initiatives |
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/estee-lauder-companies/](https://apis.io/providers/estee-lauder-companies/).
 
-No `openapi/`, `asyncapi/`, `capabilities/`, `rules/`, `json-schema/`,
-`examples/`, `plans/`, `rate-limits/`, or `finops/` artifacts are produced
-for this repository — there is no API surface to back them, and the
-pipeline rule is to avoid empty/placeholder specs.
+## How this profile is made
 
-## Key Sources
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- Corporate site: <https://www.elcompanies.com>
-- Brand portfolio: <https://www.elcompanies.com/en/our-brands>
-- Lauder family / governance: <https://www.elcompanies.com/en/who-we-are/the-lauder-family>
-- Investor relations: <https://www.elcompanies.com/en/investors>
-- Newsroom: <https://www.elcompanies.com/en/news-and-media/newsroom>
-- AI Innovation Lab (Microsoft, 2024-04-26): <https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2024/04-26-2024>
-- ConsumerIQ (Microsoft, 2025-04-29): <https://www.elcompanies.com/en/news-and-media/newsroom/company-features/2025/elc-microsoft-consumer-iq>
-- Adobe Firefly (2025-03-12): <https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2025/03-12-2025-02>
-- Shopify (2025-10-28): <https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2025/10-28-2025-212608571>
-- Jo Malone Scent Advisor (Google, 2025-12-02): <https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2025/12-02-2025-121509645>
-- One ELC / PRGP milestone (2026-04-01): <https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/04-01-2026-220015297>
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for The Estée Lauder Companies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainer
+## Open an issue
 
-[Kin Lane](mailto:kin@apievangelist.com) — [API Evangelist](https://apievangelist.com).
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/estee-lauder-companies/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
